@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Ex1_Box from './pages/Ex1_Box';
+import Ex2_Button from './pages/Ex2_Button';
+import Ex3_Card from './pages/Ex3_Card';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Ex1_Box/>
+      <Ex2_Button/>
+      <div>
+      <Ex3_Card/>
+      </div>
     </div>
   );
 }
